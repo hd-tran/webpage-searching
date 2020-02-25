@@ -22,7 +22,9 @@ Run indexer.py first:
 
         - ./etc
 
+    - Creates the Index in batches then performs merging on it to form the completed Index
+
 
 Then, run search_engine.py on resulting inverted index:
 
-  Asks for a search term or phrase to search for and uses cosine_similarity to calculate the most "relevant" document
+  * Asks for a search term or phrase to search for and uses cosine_similarity to calculate the most "relevant" document
