@@ -14,7 +14,13 @@ Run indexer.py first:
 
         - ./subdirectory2
 
-        - etc.
+          * ./webpage1
+
+          * ./webpage2
+
+          * ./etc
+
+        - ./etc
 
 
 Then, run search_engine.py on resulting inverted index:
